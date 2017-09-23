@@ -1,0 +1,40 @@
+.sidebar{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 100vh;
+  box-sizing: border-box;
+  z-index: 5;
+}
+.sidebar-title{
+  background-color: #ececec;
+  line-height: 64px;
+  padding-left: 24px;
+  font-weight: 700;
+  color: #212121;
+  font-size: 1rem;
+}
+.sidebar-content{
+  flex-grow: 1;
+}
+.menu{
+  border-right: 0;
+}
+.sidebar-logout{
+  display: flex;
+  background-color: #ececec;
+  line-height: 56px;
+  font-size: 1rem;
+}
+.logout{
+    width: 60px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff8a00;
+    cursor: pointer
+}
+.username{
+  padding-left: 10px;
+  color: #212121;
+}

@@ -1,0 +1,13 @@
+.new{
+  display: flex;
+  flex-direction: column;
+}
+.new-header{
+  margin: 88px 24px 24px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.button{
+  margin-bottom: 24px;
+}

@@ -1,0 +1,6 @@
+@import '~antd/dist/antd.css';
+.home{
+  display: flex;
+  height: 64px;
+  background-color: #404040;
+}

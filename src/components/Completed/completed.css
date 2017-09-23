@@ -1,0 +1,15 @@
+.complete{
+  display: flex;
+  /*z-index: 10;*/
+  flex-direction: column;
+  flex-grow: 1;
+}
+.complete-header{
+  width: 100%;
+  color: #fff;
+  padding-left: 72px;
+}
+.complete-list{
+  margin: 88px 24px 24px;
+  flex-grow: 1;
+}
